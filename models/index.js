@@ -8,7 +8,7 @@ const models = {
         channel sequelize,import('./channel'),
         member: sequelize,import('./member'),        
         message: sequelize,import('./message'),
-        team: sequelize,import('./team'),
+        Team: sequelize,import('./team'),
 };
 
 Object.keys(models).forEach(modelName => {
